@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import PaperPublish from "./pages/PaperPublish";
 import Resume from "./pages/resume";
 import "./App.css"; // Import your CSS file
 
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <PaperPublish />
       <Contact />
       <Resume />
     </>

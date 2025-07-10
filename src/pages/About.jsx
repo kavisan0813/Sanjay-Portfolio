@@ -15,8 +15,8 @@ const About = () => {
             <p>
               During my academic journey, I gained hands-on experience with technologies
               like <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Python</strong>, and <strong>React</strong>.
-              One of my key projects includes a <em>real-time sign language recognition system</em>
-              using ESP32-CAM, showcasing my ability to merge software with hardware-based solutions.
+              One of my key projects includes a <em>Deep Agro: AI based crop, fertilizer and disease forcasting</em>
+              using machine learning and deep learning to provide web-based platform for farmers.
             </p>
             <p>
               I'm a fast learner who loves clean code, good UI/UX, and purposeful functionality.
@@ -39,9 +39,10 @@ const About = () => {
           <div className="timeline">
             <h3>Journey</h3>
             <ul>
+              <li><span>2019-2023:</span> B.E (CSE) @ [Jaya Engineering College]</li>
               <li><span>2023-2025:</span> MCA @ [DR M.G.R Educational & Research Institute]</li>
               <li><span>2022:</span> Built first web app using React</li>
-              <li><span>2024:</span> Completed IoT-based Sign Language Project</li>
+              <li><span>2025:</span> Completed AI-based Crop, Fertilizers and Disease Forecasting Project</li>
               <li><span>Now:</span> Actively seeking Web Development opportunities</li>
             </ul>
           </div>

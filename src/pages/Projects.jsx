@@ -1,28 +1,22 @@
 import React from "react";
 
+
 const Projects = () => {
   const projects = [
     {
-      title: "DRIZZLE",
-      description: "Drizzle is small scale project which includes event handler function to pull-off the events in display.",
-      github: "https://github.com/Sandeepkrish8/sign-language-recognition",
-      live: "https://drizzles-indol.vercel.app/",
-      imgSrc: "/images/drizzle.png", // add this image in public/images
+      title: "Hungry Paradise",
+      description: "Hungry Paradise is a small scale project which includes event handler function to pull-off the events in display.",
+      live: "https://foodie-sk.vercel.app/",
+      imgSrc: 'https://foodie-sk.vercel.app/foodie.jpg',alt:"food" // add this image in public/images
     },
     {
       title: "To-Do List",
       description: "A simple to-do list application built with React.",
-      github: "https://github.com/Sandeepkrish8/react-portfolio",
+      
       live: "https://to-do-list-nine-phi-84.vercel.app/",
-      imgSrc: "/images/todo.png", // add this image in public/images
+      imgSrc: "https://repository-images.githubusercontent.com/513729889/be727781-c092-40f2-b960-6c490df1b228", // add this image in public/images
     },
-    {
-      title: "HairGrow+",
-      description: "HairGrow+ is a web application that provides personalized hair care recommendations using AI.",
-      github: "https://github.com/Sandeepkrish8/weather-app",
-        live: "https://growx-weather-app.vercel.app/",
-      imgSrc: "/images/HairX.png", // add this image in public/images
-    },
+   
   ];
 
   return (
@@ -35,15 +29,8 @@ const Projects = () => {
               <div key={index} className="project-card">
                 <img src={project.imgSrc} alt={project.title} className="project-image" />
                 <h3>{project.title}</h3>
+
                 <p>{project.description}</p>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project-link"
-                >
-                  GitHub Repo
-                </a>
                 {project.live && (
                   <a
                     href={project.live}

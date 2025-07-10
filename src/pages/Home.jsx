@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
+import sanjayImg from "../assets/sanjay.jpg";
+import gitImg from "../assets/git.gif";
+import linkedinImg from "../assets/lik.gif";
+import emailImg from "../assets/mail.gif";
 
 const Home = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -15,28 +19,42 @@ const Home = () => {
       <section id="home" className={`home ${isDarkMode ? "dark" : "light"}`}>
         <div className="overlay"></div>
 
-        {/* 🌗 Theme Toggle */}
+        {/* 🌗 Theme Toggle Button */}
         <button className="theme-toggle" onClick={toggleTheme}>
           {isDarkMode ? <FaSun /> : <FaMoon />}
         </button>
 
         <div className="intro-container">
-          <img src="/images/sandeep.jpg" alt="Sandeep Krishnan profile" className="profile-pic" />
+          <img
+            src={sanjayImg}
+            alt='SANJAY'
+            className="profile-pic"
+          />
 
           {/* 🚀 Social Links */}
           <div className="social-links">
-            <a href="https://github.com/Sandeepkrish8" target="_blank" rel="noopener noreferrer">
-              <img src="/images/github.gif" alt="GitHub" />
+            <a
+              href="https://github.com/kavisan0813"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={gitImg} alt="GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/sandeepkrishsk" target="_blank" rel="noopener noreferrer">
-              <img src="/images/linkin.gif" alt="LinkedIn" />
+            <a
+              href="https://www.linkedin.com/in/sanjay-r03"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedinImg} alt="LinkedIn" />
             </a>
-            <a href="mailto:sandeepkrsk08@example.com">
-              <img src="/images/mail.gif" alt="Email" />
+            <a href="mailto:sathya.sanjay115@gmail.com">
+              <img src={emailImg} alt="Email" />
             </a>
           </div>
 
-          <h1 className="intro-title"><span className="typewriter">Hi, I'm Sandeep Krishnan👋</span></h1>
+          <h1 className="intro-title">
+            <span className="typewriter">Hi, I'm SANJAY R👋</span>
+          </h1>
           <p className="intro-subtitle">Aspiring Web Developer | MCA Graduate</p>
 
           <div className="intro-description">
@@ -60,6 +78,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Inline CSS for this component */}
       <style>{`
         body.dark-mode {
           background-color: #111;

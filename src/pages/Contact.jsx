@@ -35,9 +35,9 @@ const Contact = () => {
           )}
 
           <div className="contact-info">
-            <p><strong>Email:</strong> sandeepkrsk08@example.com</p>
-            <p><strong>Phone:</strong> +91-9876543210</p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sandeepkrishsk" target="_blank" rel="noreferrer">linkedin.com/in/sandeepkrishsk</a></p>
+            <p><strong>Email:</strong> sathya.sanjay115@gmail.com</p>
+            <p><strong>Phone:</strong> +91-8870370866</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sanjay-r03" target="_blank" rel="noreferrer">linkedin.com/in/sanjay-r03</a></p>
           </div>
         </div>
       </section>
